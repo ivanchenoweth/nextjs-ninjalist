@@ -10,11 +10,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <h1>Homepage V1</h1>
-      <p>Fugiat esse velit culpa exercitation incididunt excepteur quis nulla eu occaecat.</p>
-      <p>Fugiat esse velit culpa exercitation incididunt excepteur quis nulla eu occaecat.</p>
-      <Footer />
+      <div className={styles.container}>
+      <h1>Homepage V3</h1>
+        <p>Fugiat esse velit culpa exercitation incididunt excepteur quis nulla eu occaecat.</p>
+        <p>Fugiat esse velit culpa exercitation incididunt excepteur quis nulla eu occaecat.</p>
+        <p>Fugiat esse velit culpa exercitation incididunt excepteur quis nulla eu occaecat.</p>
+      </div>
     </div>
   );
 }
